@@ -1,14 +1,15 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-expand-lg">
     <router-link class="navbar-brand d-flex" :to="{ name: 'HomePage' }">
-      <div class="d-flex flex-column align-items-center">
+      <button class="btn">
+        <img src="../assets/img/small_logo.gif" alt="">
         Home
-      </div>
+      </button>
     </router-link>
-    <router-link class="navbar-brand d-flex" :to="{ name: 'CartPage' }">
-      <div class="d-flex flex-column align-items-center">
-        <i class="fas fa-shopping-cart"></i>
-      </div>
+    <router-link class="navbar-brand d-flex" :to="{ name: 'AboutPage' }">
+      <button class="btn">
+        About
+      </button>
     </router-link>
   </nav>
 </template>
@@ -28,7 +29,7 @@ export default {
 <style scoped>
 
 .navbar{
-  background-color: #666666fb;
+  background-color: #fffffffb;
 }
 
 @media(max-width: 600px){
