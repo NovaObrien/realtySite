@@ -18,7 +18,6 @@
 export default {
   name: 'Navbar',
   setup() {
-
     return {
 
     }
@@ -31,7 +30,6 @@ export default {
 .navbar{
   background-color: #666666fb;
 }
-
 
 @media(max-width: 600px){
   .large{
