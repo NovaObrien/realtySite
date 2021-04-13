@@ -1,11 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg">
-    <router-link class="navbar-brand d-flex" :to="{ name: 'HomePage' }">
-      <button class="btn">
-        <img src="../assets/img/small_logo.gif" alt="">
-        Home
-      </button>
-    </router-link>
+    <button class="btn navbar-brand d-flex" @click="HomePage">
+      <img src="../assets/img/small_logo.gif" alt="">
+      Home
+    </button>
     <router-link class="navbar-brand d-flex" :to="{ name: 'AboutPage' }">
       <button class="btn">
         About
@@ -15,19 +13,31 @@
 </template>
 
 <script>
+import { useRouter } from 'vue-router'
 
 export default {
   name: 'Navbar',
-  setup() {
-    return {
 
+  setup() {
+    const router = useRouter()
+    return {
+      HomePage() {
+        router.push({ name: 'HomePage' })
+      }
     }
   }
 }
 </script>
 
 <style scoped>
+button:hover{
+  outline: 0;
+}
+:focus{
+  outline: 3px solid var(--success);
 
+  /* border-bottom: 10px; */
+}
 .navbar{
   background-color: #fffffffb;
 }
