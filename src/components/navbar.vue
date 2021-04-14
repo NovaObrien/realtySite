@@ -1,12 +1,22 @@
 <template>
   <nav class="navbar navbar-expand-lg">
     <button class="btn navbar-brand d-flex" @click="HomePage">
-      <img src="../assets/img/small_logo.gif" alt="">
+      <img src="../assets/img/logos/small_logo.gif" alt="">
       Home
     </button>
     <router-link class="navbar-brand d-flex" :to="{ name: 'AboutPage' }">
       <button class="btn">
         About
+      </button>
+    </router-link>
+    <router-link class="navbar-brand d-flex" :to="{ name: 'ListingsPage' }">
+      <button class="btn">
+        Search Listings
+      </button>
+    </router-link>
+    <router-link class="navbar-brand d-flex" :to="{ name: 'StaffPage' }">
+      <button class="btn">
+        Meet our Staff
       </button>
     </router-link>
   </nav>
