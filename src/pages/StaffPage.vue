@@ -60,32 +60,34 @@ export default {
 
 <style lang="scss" scoped>
 
-.small-font{
-  font-size: 17px;
-  font-weight: 600;
-}
-.medium-font{
-  font-size: 20px;
-  font-weight: 800;
-}
 @media(max-width: 600px){
   .small-font{
+    font-size: 15px;
   }
   .medium-font{
-    font-size: 10px;
+    font-size: 15px;
+  }
+  h3{
+    font-size: 25px;
   }
   .staff-image {
   max-width: 35vh;
   max-height: 35vw;
-}
+  }
 }
 @media(min-width: 600px){
   .small-font{
-    display: none;
+    font-size: 17px;
+  font-weight: 600;
+
   }
-.staff-image {
+  .medium-font{
+  font-size: 20px;
+  font-weight: 800;
+  }
+  .staff-image {
   max-width: 35vh;
   max-height: 45vw;
-}
+  }
 }
 </style>

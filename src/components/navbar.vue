@@ -1,8 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg">
     <button class="btn navbar-brand d-flex" @click="HomePage">
-      <img src="../assets/img/logos/small_logo.gif" alt="">
-      Home
+      <img class="home-button" src="../assets/img/logos/large_logo.jpg" alt="">
     </button>
     <router-link class="navbar-brand d-flex" :to="{ name: 'AboutPage' }">
       <button class="btn">
@@ -40,6 +39,10 @@ export default {
 </script>
 
 <style scoped>
+.home-button{
+  max-height: 25vh;
+  max-width: 55vw;
+}
 button:hover{
   outline: 0;
 }
