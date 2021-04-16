@@ -4,10 +4,10 @@
       <img src="../assets/img/logos/large_logo.jpg" alt="">
     </div>
     <div class="row">
-      <div class="col-3">
+      <div class="col-4">
         <img class="staff-image rounded shadow" src="../assets/img/staff/Dave.jpg" alt="">
       </div>
-      <div class="col-4 ml-5 mt-4">
+      <div class="col-4 mt-4">
         <h3>Dave O'Brien, GRI, Brocker/CEO</h3>
         <p class="small-font mt-4">
           If you are looking for a Broker with in-depth experience, Dave's 36 years working in Southern Valley County Real Estate market is hard to beat.  On a personal note Dave spends his free time with his family and playing in Central Idaho's Mountains.  Dave can be contacted at
@@ -61,6 +61,10 @@ export default {
 <style lang="scss" scoped>
 
 @media(max-width: 600px){
+
+   [class*="col-"] {
+    width: 100%;
+  }
   .small-font{
     font-size: 15px;
   }
@@ -71,8 +75,8 @@ export default {
     font-size: 25px;
   }
   .staff-image {
-  max-width: 35vh;
-  max-height: 35vw;
+    max-height: 35vh;
+    max-width: 35vw;
   }
 }
 @media(min-width: 600px){
@@ -86,8 +90,8 @@ export default {
   font-weight: 800;
   }
   .staff-image {
-  max-width: 35vh;
-  max-height: 45vw;
+  max-height: 45vh;
+  max-width: 35vw;
   }
 }
 </style>
