@@ -1,13 +1,11 @@
 <template>
   <div class="staff-page container-fluid">
-    <div class="row d-flex justify-content-center">
+    <div class="row">
       <img src="../assets/img/logos/large_logo.jpg" alt="">
     </div>
+    <img class="staff-image rounded shadow" src="../assets/img/staff/Dave.jpg" alt="">
     <div class="row">
       <div class="col-4">
-        <img class="staff-image rounded shadow" src="../assets/img/staff/Dave.jpg" alt="">
-      </div>
-      <div class="col-4 mt-4">
         <h3>Dave O'Brien, GRI, Brocker/CEO</h3>
         <p class="small-font mt-4">
           If you are looking for a Broker with in-depth experience, Dave's 36 years working in Southern Valley County Real Estate market is hard to beat.  On a personal note Dave spends his free time with his family and playing in Central Idaho's Mountains.  Dave can be contacted at
@@ -41,9 +39,9 @@
           Contact: Office:  (208) 382-4921, Cell:  (208) 630-3336, Email:  karolyn@CascadeLakeRealty.com
         </p>
       </div>
-      <div class="col-3">
-        <img class="staff-image rounded mt-5" src="../assets/img/staff/Karolyn.jpg" alt="">
-      </div>
+    </div>
+    <div class="col-3">
+      <img class="staff-image rounded mt-5" src="../assets/img/staff/Karolyn.jpg" alt="">
     </div>
   </div>
 </template>
@@ -59,17 +57,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+[class*="col-"] {
+  width: 100%;
+}
 
-@media(max-width: 600px){
-
-   [class*="col-"] {
-    width: 100%;
-  }
   .small-font{
     font-size: 15px;
   }
   .medium-font{
     font-size: 15px;
+    font-weight: 700;
   }
   h3{
     font-size: 25px;
@@ -78,7 +75,6 @@ export default {
     max-height: 35vh;
     max-width: 35vw;
   }
-}
 @media(min-width: 600px){
   .small-font{
     font-size: 17px;
