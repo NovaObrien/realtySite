@@ -68,14 +68,8 @@ export default {
     font-size: 15px;
     font-weight: 700;
   }
-  h3{
-    font-size: 25px;
-  }
-  .staff-image {
-    max-height: 35vh;
-    max-width: 35vw;
-  }
-@media(min-width: 600px){
+ @media(min-width: 57576){
+
   .small-font{
     font-size: 17px;
   font-weight: 600;
