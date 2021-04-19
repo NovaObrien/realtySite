@@ -3,9 +3,11 @@
     <div class="row">
       <img src="../assets/img/logos/large_logo.jpg" alt="">
     </div>
-    <img class="staff-image rounded shadow" src="../assets/img/staff/Dave.jpg" alt="">
     <div class="row">
-      <div class="col-4">
+      <div class="col">
+        <img class="staff-image rounded shadow" src="../assets/img/staff/Dave.jpg" alt="">
+      </div>
+      <div class="col">
         <h3>Dave O'Brien, GRI, Broker/CEO</h3>
         <p class="small-font mt-4">
           If you are looking for a Broker with in-depth experience, Dave's 36 years working in Southern Valley County Real Estate market is hard to beat.  On a personal note Dave spends his free time with his family and playing in Central Idaho's Mountains.  Dave can be contacted at
@@ -24,10 +26,6 @@
         </h3>
         <p>
           Experience:  More than 1,500 successful closings in 31 years at Cascade Lake Realty.  Broker's license, GRI.  A network of long-established relationships with lenders, title officers, surveyors, government officials and other professionals.
-        </p>
-
-        <p>
-          Philosophy:  I love my work and pride myself in being professional and ethical.  I consider it my first responsibility to recognize potential complications and take care of them in advance.
         </p>
         <p>
           Personal:  43 years in Cascade (and love it still).  A terrific husband and two grown sons, with their young families.
