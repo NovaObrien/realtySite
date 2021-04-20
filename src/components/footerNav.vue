@@ -5,14 +5,14 @@
         Home
       </h5>
     </button>
-    <button class="btn" @click="stafPage">
+    <button class="btn" @click="aboutPage">
       <h5>
-        Staff
+        About Us
       </h5>
     </button>
-    <button class="btn" @click="contactPage">
+    <button class="btn" @click="staffPage">
       <h5>
-        Contact
+        Staff
       </h5>
     </button>
     <button class="btn" @click="mlsPage">
@@ -21,7 +21,10 @@
       </h5>
     </button>
 
-    <div>
+    <div class="contact">
+      <h5>
+        Contact:
+      </h5>
       Office: 208-382-****
     </div>
   </div>
@@ -38,13 +41,13 @@ export default {
         router.push({ name: 'HomePage' })
       },
       staffPage() {
-        router.push({ name: 'HomePage' })
+        router.push({ name: 'StaffPage' })
       },
-      contactPage() {
-        router.push({ name: 'HomePage' })
+      aboutPage() {
+        router.push({ name: 'AboutPage' })
       },
       mlsPage() {
-        router.push({ name: 'mlsPage' })
+        router.push({ name: 'MlsPage' })
       }
     }
   },
@@ -56,5 +59,12 @@ export default {
 .footer-nav{
   background-color: rgba(0, 0, 0, 0.411);
   color: white;
+}
+.btn{
+  color: white
+}
+
+.contact{
+
 }
 </style>
