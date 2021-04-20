@@ -10,6 +10,7 @@
     </router-view>
   </main>
   <footer>
+    <footer-nav />
   </footer>
 </template>
 
