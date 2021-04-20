@@ -22,5 +22,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.footer-nav{
+  background-color: rgba(0, 0, 0, 0.411);
+  color: white;
+}
 </style>
