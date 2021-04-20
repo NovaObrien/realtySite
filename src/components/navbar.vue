@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg">
-    <button class="btn navbar-brand d-flex" @click="HomePage">
+    <button class="btn navbar-brand d-flex" @click="homePage">
       <img class="home-button" src="../assets/img/logos/large_logo.jpg" alt="">
     </button>
     <router-link class="navbar-brand d-flex" :to="{ name: 'AboutPage' }">
@@ -30,7 +30,7 @@ export default {
   setup() {
     const router = useRouter()
     return {
-      HomePage() {
+      homePage() {
         router.push({ name: 'HomePage' })
       }
     }
