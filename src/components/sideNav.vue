@@ -1,27 +1,23 @@
 <template>
   <div @click="openNav()" class="side-nav-btn-open p-3">
-    <img src="../images/Bonzai.svg" class="logo" alt="">
+    |||
   </div>
-
-  <div class="SideNaveBar text-center">
+  <div class="SideNav text-center">
     <div id="mySidenav" class="sidenav">
       <!-- <a href="javascript:void(0)"
          class="closebtn"
          @click="closeNav()"
       >&times;</a> -->
       <div class="side-nav-routes d-flex flex-column justify-content-center">
-        <router-link :to="{ name: 'Home' }" @click="closeNav()">
+        <router-link :to="{ name: 'HomePage' }" @click="closeNav()">
           Home
         </router-link>
-        <router-link :to="{ name: 'About' }" @click="closeNav()">
+        <router-link :to="{ name: 'AboutPage' }" @click="closeNav()">
           About
         </router-link>
-        <router-link :to="{ name: 'Profile' }" @click="closeNav()">
-          Profile
+        <router-link :to="{ name: 'StaffPage' }" @click="closeNav()">
+          Staff
         </router-link>
-      </div>
-      <div class="side-nav-logo">
-        <img src="../images/Bonzai.svg" class="logo" alt="" @click="routeHome">
       </div>
     </div>
 
@@ -35,17 +31,17 @@
 <script>
 import router from '../router'
 export default {
-  name: 'SideNaveBar',
+  name: 'SideNav',
   setup() {
     return {
       openNav() {
-        document.getElementById('mySidenav').style.width = '15vw'
+        document.getElementById('mySidenav').style.width = '25vw'
       },
       closeNav() {
         document.getElementById('mySidenav').style.width = '0'
       },
       routeHome() {
-        router.push({ name: 'Home' })
+        router.push({ name: 'HomePage' })
       }
     }
   },
@@ -60,11 +56,7 @@ a {
 li{
   list-style: none;
 }
-.side-nav-logo{
-  text-align: center;
-  margin-bottom: 20px;
-  opacity: 50%;
-}
+
 .sidenav{
   display: flex;
   flex-flow: column;
@@ -72,15 +64,6 @@ li{
 }
 .side-nav-btn-open{
   cursor: pointer;
-}
-.logo {
-  box-shadow: 1px 1px 10px 0px #000;
-  border-radius: 100%;
-  width: 100px;
-  height: 100px;
-  // opacity: 80%;
-  // background-color: #CFBBA3;
-  background-color: #E8CC98;
 }
 .logo:active{
   box-shadow: -1px -1px -10px 0px #000;

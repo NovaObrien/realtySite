@@ -1,23 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg">
-    <button class="btn navbar-brand d-flex" @click="homePage">
-      <img class="home-button" src="../assets/img/logos/large_logo.jpg" alt="">
-    </button>
-    <router-link class="navbar-brand d-flex" :to="{ name: 'AboutPage' }">
-      <button class="btn">
-        About
-      </button>
-    </router-link>
-    <router-link class="navbar-brand d-flex" :to="{ name: 'ListingsPage' }">
-      <button class="btn">
-        Search Listings
-      </button>
-    </router-link>
-    <router-link class="navbar-brand d-flex" :to="{ name: 'StaffPage' }">
-      <button class="btn">
-        Meet our Staff
-      </button>
-    </router-link>
+    <side-nav />
   </nav>
 </template>
 
