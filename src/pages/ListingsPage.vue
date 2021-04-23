@@ -1,6 +1,6 @@
 <template>
   <div class="listings-page">
-    hello
+    This is the Listings Page
   </div>
 </template>
 

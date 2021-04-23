@@ -1,31 +1,25 @@
 <template>
-  <div class="footer-nav">
-    <button class="btn" @click="homePage">
-      <h5>
-        Home
-      </h5>
-    </button>
-    <button class="btn" @click="aboutPage">
-      <h5>
-        About Us
-      </h5>
-    </button>
-    <button class="btn" @click="staffPage">
-      <h5>
-        Staff
-      </h5>
-    </button>
-    <button class="btn" @click="mlsPage">
-      <h5>
-        MLS search
-      </h5>
-    </button>
-
-    <div class="contact">
-      <h5>
-        Contact:
-      </h5>
-      Office: 208-382-****
+  <div class="footer-nav container-fluid">
+    <div class="row">
+      <div class="col">
+        <button class="btn" @click="homePage">
+          Home
+        </button>
+        <button class="btn" @click="aboutPage">
+          About Us
+        </button>
+        <button class="btn" @click="staffPage">
+          Staff
+        </button>
+        <button class="btn" @click="mlsPage">
+          MLS search
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn" @click="listingsPage">
+          Featured Listings
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -48,6 +42,9 @@ export default {
       },
       mlsPage() {
         router.push({ name: 'MlsPage' })
+      },
+      listingsPage() {
+        router.push({ name: 'ListingsPage' })
       }
     }
   },
@@ -62,9 +59,5 @@ export default {
 }
 .btn{
   color: white
-}
-
-.contact{
-
 }
 </style>
