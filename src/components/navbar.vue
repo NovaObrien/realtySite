@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <side-nav />
-        <p class="company-name">
+        <p class="company-name pt-3 px-1">
           Cascade Lake Realty
         </p>
         <button class="contact-top btn">
@@ -77,6 +77,7 @@ a:hover {
 }
 
 .contact-top{
+  height: 30px;
   background-color: var(--secondary);
   color: var(--light);
   border-radius: 25px;
@@ -92,5 +93,9 @@ a:hover {
   letter-spacing: 4px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+}
+
+img{
+  /* position: absolute; */
 }
 </style>
