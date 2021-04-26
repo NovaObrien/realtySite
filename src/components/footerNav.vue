@@ -1,5 +1,5 @@
 <template>
-  <div class="footer-nav container-fluid">
+  <div class="footer-nav">
     <div class="row">
       <div class="col">
         <button class="btn" @click="homePage">
@@ -54,10 +54,12 @@ export default {
 
 <style lang="scss" scoped>
 .footer-nav{
+  height: 20vh;
   background-color: rgba(0, 0, 0, 0.411);
   color: white;
 }
 .btn{
+  font-size: 12px;
   color: white
 }
 </style>

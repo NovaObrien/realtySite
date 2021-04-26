@@ -1,6 +1,8 @@
 <template>
   <div @click="openNav()" class="side-nav-btn-open p-3">
-    |||
+    <button class="btn bg-secondary">
+      |||
+    </button>
   </div>
   <div class="SideNav text-center">
     <div id="mySidenav" class="sidenav">
@@ -50,6 +52,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.btn{
+  color: white;
+}
 a {
   padding: 0;
 }
@@ -76,7 +81,7 @@ li{
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black*/
+  background-color: #fa3807d8; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -86,7 +91,7 @@ li{
   padding: 10px 0px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #000000;
   display: block;
   transition: 0.3s;
 }

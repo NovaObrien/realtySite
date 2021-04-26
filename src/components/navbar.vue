@@ -1,6 +1,12 @@
 <template>
   <nav class="navbar navbar-expand-lg">
     <side-nav />
+    <p class="d-flex justify-content-center">
+      Cascade Lake Realty
+    </p>
+    <button class="btn bg-secondary">
+      Contact
+    </button>
   </nav>
 </template>
 
