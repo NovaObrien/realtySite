@@ -1,12 +1,16 @@
 <template>
-  <nav class="navbar navbar-expand-lg">
-    <side-nav />
-    <p class="company-name">
-      Cascade Lake Realty
-    </p>
-    <button class="contact-top btn">
-      Contact
-    </button>
+  <nav class="navbar sticky-top">
+    <div class="container">
+      <div class="row">
+        <side-nav />
+        <p class="company-name">
+          Cascade Lake Realty
+        </p>
+        <button class="contact-top btn">
+          Contact
+        </button>
+      </div>
+    </div>
   </nav>
 </template>
 
@@ -74,15 +78,19 @@ a:hover {
 
 .contact-top{
   background-color: var(--secondary);
-  /* height: 50px; */
+  color: var(--light);
   border-radius: 25px;
   text-align: center;
   letter-spacing: 1px;
-  font-weight: 800;
   font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 
 }
 .company-name{
+  font-size: 12px;
+  letter-spacing: 4px;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 </style>

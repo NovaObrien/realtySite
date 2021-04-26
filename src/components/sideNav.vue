@@ -1,5 +1,5 @@
 <template>
-  <div @click="openNav()" class="side-nav-btn-open p-3">
+  <div @click="openNav()" class="side-nav-btn-open">
     <button class="btn bg-secondary">
       |||
     </button>
