@@ -1,10 +1,10 @@
 <template>
   <nav class="navbar navbar-expand-lg">
     <side-nav />
-    <p class="d-flex justify-content-center">
+    <p class="company-name">
       Cascade Lake Realty
     </p>
-    <button class="btn bg-secondary">
+    <button class="contact-top btn">
       Contact
     </button>
   </nav>
@@ -28,13 +28,13 @@ export default {
 </script>
 
 <style scoped>
-.home-button{
+/* .home-button{
   max-height: 25vh;
   max-width: 55vw;
 }
 button:hover{
   outline: 0;
-}
+} */
 :focus{
   outline: 3px solid var(--success);
 
@@ -70,5 +70,19 @@ a:hover {
 }
 .nav-item .nav-link.router-link-exact-active{
   color: var(--primary);
+}
+
+.contact-top{
+  background-color: var(--secondary);
+  /* height: 50px; */
+  border-radius: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 800;
+  font-size: 12px;
+
+}
+.company-name{
+  font-weight: 700;
 }
 </style>

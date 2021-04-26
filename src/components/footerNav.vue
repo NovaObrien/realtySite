@@ -11,6 +11,9 @@
         <button class="btn" @click="staffPage">
           Staff
         </button>
+        <button class="btn" @click="areasPage">
+          Local Areas
+        </button>
         <button class="btn" @click="mlsPage">
           MLS search
         </button>
@@ -39,6 +42,9 @@ export default {
       },
       aboutPage() {
         router.push({ name: 'AboutPage' })
+      },
+      areasPage() {
+        router.push({ name: 'AreasPage' })
       },
       mlsPage() {
         router.push({ name: 'MlsPage' })

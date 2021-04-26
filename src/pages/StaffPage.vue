@@ -1,9 +1,6 @@
 <template>
   <div class="staff-page container-fluid">
     <div class="row">
-      <img src="../assets/img/logos/large_logo.jpg" alt="">
-    </div>
-    <div class="row">
       <div class="col">
         <img class="staff-image rounded shadow" src="../assets/img/staff/Dave.jpg" alt="">
       </div>
