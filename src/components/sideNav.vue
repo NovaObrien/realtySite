@@ -20,6 +20,9 @@
         <router-link :to="{ name: 'StaffPage' }" @click="closeNav()">
           Staff
         </router-link>
+        <router-link :to="{ name: 'AreasPage' }" @click="closeNav()">
+          Areas
+        </router-link>
       </div>
     </div>
 

@@ -1,12 +1,12 @@
 <template>
-  <div class="area-page">
+  <div class="areas-page">
     This is the area page
   </div>
 </template>
 
 <script>
 export default {
-  name: 'AreaPage',
+  name: 'AreasPage',
   setup() {
     return {}
   },
