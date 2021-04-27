@@ -1,6 +1,6 @@
 <template>
   <div @click="openNav()" class="side-nav-btn-open">
-    <button class="btn bg-secondary">
+    <button class="btn btn-sm btn-outline-secondary">
       |||
     </button>
   </div>
@@ -55,9 +55,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.btn{
-  color: white;
-}
+
 a {
   padding: 0;
 }

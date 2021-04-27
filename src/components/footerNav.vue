@@ -1,26 +1,40 @@
 <template>
   <div class="footer-nav">
     <div class="row">
-      <div class="col">
-        <button class="btn" @click="homePage">
+      <div class="col-4">
+        <router-link class="nav-link pl-3" :to="{name: 'HomePage'}">
           Home
-        </button>
-        <button class="btn" @click="aboutPage">
-          About Us
-        </button>
-        <button class="btn" @click="staffPage">
+        </router-link>
+        <router-link class="nav-link pl-3" :to="{name: 'AboutPage'}">
+          About
+        </router-link>
+        <router-link class="nav-link pl-3" :to="{name: 'StaffPage'}">
           Staff
-        </button>
-        <button class="btn" @click="areasPage">
-          Local Areas
-        </button>
-        <button class="btn" @click="mlsPage">
-          MLS search
-        </button>
+        </router-link>
+        <router-link class="nav-link pl-3" :to="{name: 'AreasPage'}">
+          Area Information
+        </router-link>
       </div>
-      <div class="col">
-        <button class="btn" @click="listingsPage">
+      <div class="col-4">
+        <router-link class="nav-link pl-3" :to="{name: 'ListingsPage'}">
           Featured Listings
+        </router-link>
+        <router-link class="nav-link pl-3" :to="{name: 'ListingsPage'}">
+          150,000 - 250,000
+        </router-link>
+        <router-link class="nav-link pl-3" :to="{name: 'ListingsPage'}">
+          Listings
+        </router-link>
+        <router-link class="nav-link pl-3" :to="{name: 'ListingsPage'}">
+          Listings
+        </router-link>
+        <router-link class="nav-link pl-3" :to="{name: 'ListingsPage'}">
+          Listings
+        </router-link>
+      </div>
+      <div class="col-4">
+        <button class="btn">
+          Contact
         </button>
       </div>
     </div>
@@ -60,12 +74,19 @@ export default {
 
 <style lang="scss" scoped>
 .footer-nav{
-  height: 20vh;
+  // height: 20vh;
   background-color: rgba(0, 0, 0, 0.411);
+
+}
+.nav-link{
+  font-size: 12px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
   color: white;
 }
 .btn{
-  font-size: 12px;
-  color: white
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 </style>
