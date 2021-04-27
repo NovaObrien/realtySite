@@ -3,6 +3,7 @@
     <div class="container">
       <div class="row">
         <side-nav />
+        <img src="../assets/img/logos/cascade-lake-realty-logo.svg" alt="">
         <p class="company-name pt-3 px-1">
           Cascade Lake Realty
         </p>
@@ -97,5 +98,7 @@ a:hover {
 
 img{
   /* position: absolute; */
+  max-height: 35px;
+  max-width: 34px;
 }
 </style>
