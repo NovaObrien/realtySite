@@ -25,7 +25,7 @@ C/O https://placeholder.com/"
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit qui accusamus dolor consequuntur reprehenderit.
       </div>
     </div>
-    <div class="row">
+    <div class="row pb-5">
       <div class="col-6">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit qui accusamus dolor consequuntur reprehenderit.
       </div>
