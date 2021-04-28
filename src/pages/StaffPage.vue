@@ -1,42 +1,34 @@
 <template>
   <div class="staff-page container-fluid">
-    <div class="row">
-      <div class="col">
+    <div class="row mb-4">
+      <div class="col-6">
         <img class="staff-image rounded shadow" src="../assets/img/staff/Dave.jpg" alt="">
       </div>
-      <div class="col">
-        <h3>Dave O'Brien, GRI, Broker/CEO</h3>
+      <div class="col-6">
+        <h6>Dave O'Brien, GRI, Broker/CEO</h6>
         <p class="small-font mt-4">
-          If you are looking for a Broker with in-depth experience, Dave's 36 years working in Southern Valley County Real Estate market is hard to beat.  On a personal note Dave spends his free time with his family and playing in Central Idaho's Mountains.  Dave can be contacted at
+          If you are looking for a Broker with in-depth experience, Dave's 36 years working in Southern Valley County Real Estate market is hard to beat. Dave spends his free time with his family and playing in Central Idaho's Mountains.
         </p>
         <p class="medium-font">
-          Office:  (208) 382-4921, Cell:  (208) 634-6551, Email: dave@cascadelakerealty.com
+          Contact: (208) 634-6551, Email: dave@cascadelakerealty.com
         </p>
       </div>
     </div>
-    <div class="row mt-5">
-      <div class="col-5">
-      </div>
-      <div class="col-4">
-        <h3>
+    <div class="row">
+      <div class="col-6">
+        <h6>
           KAROLYN PLEHAL, GRI, ASSOCIATE BROKER
-        </h3>
-        <p>
-          Experience:  More than 1,500 successful closings in 31 years at Cascade Lake Realty.  Broker's license, GRI.  A network of long-established relationships with lenders, title officers, surveyors, government officials and other professionals.
+        </h6>
+        <p class="small-font">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione tempore nobis tempora odio ut, aspernatur praesentium magni corporis nisi voluptatibus.
         </p>
-        <p>
-          Personal:  43 years in Cascade (and love it still).  A terrific husband and two grown sons, with their young families.
-        </p>
-        <p>
-          Karolyn's Personal Web Site: Web Site
-        </p>
-        <p>
-          Contact: Office:  (208) 382-4921, Cell:  (208) 630-3336, Email:  karolyn@CascadeLakeRealty.com
+        <p class="medium-font">
+          Contact:(208) 630-3336, Email:  karolyn@CascadeLakeRealty.com
         </p>
       </div>
-    </div>
-    <div class="col-3">
-      <img class="staff-image rounded mt-5" src="../assets/img/staff/Karolyn.jpg" alt="">
+      <div class="col-6">
+        <img class="staff-image rounded mt-5" src="../assets/img/staff/Karolyn.jpg" alt="">
+      </div>
     </div>
   </div>
 </template>
@@ -52,15 +44,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-[class*="col-"] {
-  width: 100%;
-}
+// [class*="col-"] {
+//   width: 100%;
+// }
 
+.staff-image{
+  max-height: 55vh;
+  max-width: 33vw;
+}
   .small-font{
-    font-size: 15px;
+    font-size: 10px;
   }
   .medium-font{
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 700;
   }
  @media(min-width: 576px){
