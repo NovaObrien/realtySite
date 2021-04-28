@@ -63,7 +63,7 @@ export default {
     font-size: 15px;
     font-weight: 700;
   }
- @media(min-width: 57576){
+ @media(min-width: 576px){
 
   .small-font{
     font-size: 17px;

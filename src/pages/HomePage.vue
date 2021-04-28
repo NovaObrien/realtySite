@@ -7,12 +7,36 @@
         alt=""
       >
     </div>
+
+    <div class="row d-flex justify-content-center py-5">
+      <h5>
+        Make Valley County your new home today
+      </h5>
+    </div>
+    <div class="row pb-5">
+      <div class="col-6">
+        <img class="rounded"
+             src="https://via.placeholder.com/150
+C/O https://placeholder.com/"
+             alt=""
+        >
+      </div>
+      <div class="col-6">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit qui accusamus dolor consequuntur reprehenderit.
+      </div>
+    </div>
     <div class="row">
       <div class="col-6">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit qui accusamus dolor consequuntur reprehenderit.
       </div>
-      <div class="col-6"></div>
+      <div class="col-6">
+        <img class="rounded"
+             src="https://via.placeholder.com/150
+C/O https://placeholder.com/"
+             alt=""
+        >
+      </div>
     </div>
-    <div class="row"></div>
   </div>
 </template>
 
@@ -33,6 +57,12 @@ export default {
   width: 85vw;
   height: 29vh;
   border-radius: 19px;
+}
+@media (min-width: 600px){
+.feature-img{
+  width: 98vw;
+  height: 40vh;
+}
 }
 .large{
   min-width: 40vw;
