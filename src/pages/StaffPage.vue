@@ -156,6 +156,9 @@ export default {
 //   width: 100%;
 // }
 
+// ==========>
+// Mobile
+// =========
 .staff-image{
   object-fit: cover;
   height: 35vh;
@@ -168,7 +171,67 @@ export default {
     font-size: 12px;
     font-weight: 700;
   }
- @media(min-width: 576px){
+  // =========
+  // Tablets
+  // ==========
+ @media(min-width: 481px){
+
+  .small-font{
+    font-size: 17px;
+  font-weight: 600;
+
+  }
+  .medium-font{
+  font-size: 20px;
+  font-weight: 800;
+  }
+  .staff-image {
+  max-height: 45vh;
+  max-width: 35vw;
+  }
+}
+// =================
+// Small screeens Laptops
+// ==================
+ @media(min-width: 769px){
+
+  .small-font{
+    font-size: 17px;
+  font-weight: 600;
+
+  }
+  .medium-font{
+  font-size: 20px;
+  font-weight: 800;
+  }
+  .staff-image {
+  max-height: 45vh;
+  max-width: 35vw;
+  }
+}
+// ===========
+// Desktops
+// ===========
+ @media(min-width: 1024px){
+
+  .small-font{
+    font-size: 17px;
+  font-weight: 600;
+
+  }
+  .medium-font{
+  font-size: 20px;
+  font-weight: 800;
+  }
+  .staff-image {
+  max-height: 45vh;
+  max-width: 35vw;
+  }
+}
+// ============
+// extra large screens
+// ==============
+ @media(min-width: 1200px){
 
   .small-font{
     font-size: 17px;
