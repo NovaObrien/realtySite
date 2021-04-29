@@ -1,29 +1,29 @@
 <template>
-  <div class="staff-page container-fluid">
-    <div class="row mb-4">
+  <div class="staff-page container-fluid ">
+    <div class="row">
       <div class="col-6">
         <img class="staff-image rounded shadow image-" src="../assets/img/staff/Dave.jpg" alt="">
       </div>
       <div class="col-6">
         <h6>Dave O'Brien, GRI, Broker/CEO</h6>
-        <p class="small-font mt-4">
+        <p class="small-font">
           If you are looking for a Broker with in-depth experience, Dave's 36 years working in Southern Valley County Real Estate market is hard to beat. Dave spends his free time with his family and playing in Central Idaho's Mountains.
         </p>
         <p class="medium-font">
-          Contact: (208) 634-6551, Email: dave@cascadelakerealty.com
+          Contact: (208) 634-6551 dave@cascadelakerealty.com
         </p>
       </div>
     </div>
-    <div class="row mb-4">
-      <div class="col-6 mt-3">
+    <div class="row">
+      <div class="col-6">
         <h6>
-          KAROLYN PLEHAL, GRI, ASSOCIATE BROKER
+          Karolyn Plehal, GRI, Associate Broker
         </h6>
         <p class="small-font">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione tempore nobis tempora odio ut, aspernatur praesentium magni corporis nisi voluptatibus.
         </p>
         <p class="medium-font">
-          Contact:(208) 630-3336, Email:  karolyn@CascadeLakeRealty.com
+          Contact:(208) 630-3336, karolyn@CascadeLakeRealty.com
         </p>
       </div>
       <div class="col-6">
@@ -31,7 +31,7 @@
       </div>
     </div>
 
-    <div class="row mb-4">
+    <div class="row">
       <div class="col-6">
         <img class="staff-image rounded shadow image-" src="../assets/img/staff/Dwight.jpg" alt="">
       </div>
@@ -45,7 +45,7 @@
         </p>
       </div>
     </div>
-    <div class="row mb-4">
+    <div class="row">
       <div class="col-6 mt-3">
         <h6>
           Randy Mead, Realtor Sales Associate
@@ -62,7 +62,7 @@
       </div>
     </div>
 
-    <div class="row mb-4">
+    <div class="row">
       <div class="col-6">
         <img class="staff-image rounded shadow image-" src="../assets/img/staff/Melanie.jpg" alt="">
       </div>
@@ -76,7 +76,7 @@
         </p>
       </div>
     </div>
-    <div class="row mb-4">
+    <div class="row">
       <div class="col-6 mt-3">
         <h6>
           Kristen Miller, Realtor®
@@ -93,7 +93,7 @@
       </div>
     </div>
 
-    <div class="row mb-4">
+    <div class="row">
       <div class="col-6">
         <img class="staff-image rounded shadow image-" src="../assets/img/staff/Naomi.jpg" alt="">
       </div>
@@ -107,7 +107,7 @@
         </p>
       </div>
     </div>
-    <div class="row mb-4">
+    <div class="row">
       <div class="col-6 mt-3">
         <h6>
           Diane Linthicum, Realtor®
@@ -124,7 +124,7 @@
       </div>
     </div>
 
-    <div class="row mb-4">
+    <div class="row">
       <div class="col-6">
         <img class="staff-image rounded shadow image-" src="../assets/img/staff/Sue.jpg" alt="">
       </div>
@@ -159,17 +159,24 @@ export default {
 // ==========>
 // Mobile
 // =========
+.row{
+  margin-bottom: 55px;
+}
 .staff-image{
   object-fit: cover;
   height: 35vh;
   width: 45vw;
 }
   .small-font{
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+
   }
   .medium-font{
     font-size: 12px;
     font-weight: 700;
+    font-family: 'Roboto', sans-serif;
   }
   // =========
   // Tablets
@@ -197,7 +204,6 @@ export default {
 
   .small-font{
     font-size: 17px;
-  font-weight: 600;
 
   }
   .medium-font{
@@ -216,7 +222,6 @@ export default {
 
   .small-font{
     font-size: 17px;
-  font-weight: 600;
 
   }
   .medium-font{
@@ -232,19 +237,27 @@ export default {
 // extra large screens
 // ==============
  @media(min-width: 1200px){
-
+.container-fluid{
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
+  .staff-image {
+  max-height: 55vh;
+  // min-height: 45vh;
+  max-width: 19vw;
+  }
   .small-font{
-    font-size: 17px;
-  font-weight: 600;
-
+    margin-top: 20px;
+  font-size: 17px;
+  font-weight:300;
   }
   .medium-font{
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 400;
   }
-  .staff-image {
-  max-height: 45vh;
-  max-width: 35vw;
+  h6{
+    font-size: 25px;
+    font-weight: 700;
   }
 }
 </style>
