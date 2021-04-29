@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar sticky-top">
     <div class="container">
-      <div class="row d-flex justfiy-content-start">
+      <div class="row d-flex justfiy-content-start border-bottom">
         <side-nav />
         <div class="col-2">
           <img src="../assets/img/logos/cascade-lake-realty-logo.svg" alt="">
@@ -97,8 +97,8 @@ a:hover {
 
 }
 .company-name{
-  font-size: 12px;
-  letter-spacing: 4px;
+  font-size: 11px;
+  letter-spacing: 3px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
