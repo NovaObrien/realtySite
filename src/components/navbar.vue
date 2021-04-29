@@ -1,18 +1,25 @@
 <template>
   <nav class="navbar sticky-top">
     <div class="container">
-      <div class="row">
+      <div class="row d-flex justfiy-content-start">
         <side-nav />
-        <img src="../assets/img/logos/cascade-lake-realty-logo.svg" alt="">
-        <p class="company-name pt-3 px-1">
-          Cascade Lake Realty
-        </p>
-        <button class="contact-top btn">
-          Contact
-        </button>
+        <div class="col-2">
+          <img src="../assets/img/logos/cascade-lake-realty-logo.svg" alt="">
+        </div>
+        <div class="row">
+          <p class="company-name pt-3 px-1">
+            Cascade Lake Realty, Inc
+          </p>
+        </div>
+        <div class="col-1">
+          <button type="button" class="btn contact-top" data-toggle="modal" data-target="#myModal">
+            Contact
+          </button>
+        </div>
       </div>
     </div>
   </nav>
+  <contact-modal />
 </template>
 
 <script>

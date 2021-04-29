@@ -35,6 +35,7 @@
 
 <script>
 import router from '../router'
+
 export default {
   name: 'SideNav',
   setup() {
@@ -49,8 +50,7 @@ export default {
         router.push({ name: 'HomePage' })
       }
     }
-  },
-  components: {}
+  }
 }
 </script>
 

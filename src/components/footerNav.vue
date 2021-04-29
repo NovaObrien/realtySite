@@ -30,7 +30,7 @@
         </router-link>
       </div>
       <div class="col-3">
-        <button class="btn text-light">
+        <button type="button" class="btn text-light" data-toggle="modal" data-target="#myModal">
           Contact
         </button>
       </div>
