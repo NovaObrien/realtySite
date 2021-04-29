@@ -2,7 +2,7 @@
   <div class="staff-page container-fluid">
     <div class="row mb-4">
       <div class="col-6">
-        <img class="staff-image rounded shadow" src="../assets/img/staff/Dave.jpg" alt="">
+        <img class="staff-image rounded shadow image-" src="../assets/img/staff/Dave.jpg" alt="">
       </div>
       <div class="col-6">
         <h6>Dave O'Brien, GRI, Broker/CEO</h6>
@@ -15,7 +15,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 mt-3">
         <h6>
           KAROLYN PLEHAL, GRI, ASSOCIATE BROKER
         </h6>
@@ -27,7 +27,7 @@
         </p>
       </div>
       <div class="col-6">
-        <img class="staff-image rounded mt-5" src="../assets/img/staff/Karolyn.jpg" alt="">
+        <img class="staff-image rounded" src="../assets/img/staff/Karolyn.jpg" alt="">
       </div>
     </div>
   </div>
@@ -49,8 +49,9 @@ export default {
 // }
 
 .staff-image{
-  max-height: 55vh;
-  max-width: 33vw;
+  object-fit: cover;
+  height: 164px;
+  width: 147px;
 }
   .small-font{
     font-size: 10px;
