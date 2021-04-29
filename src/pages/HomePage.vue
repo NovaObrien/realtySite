@@ -68,4 +68,33 @@ export default {
   min-width: 40vw;
   max-height: 20vh;
 }
+
+// ==========>
+// Mobile
+// =========
+
+  // =========
+  // Tablets
+  // ==========
+ @media(min-width: 481px){
+
+}
+// =================
+// Small screeens Laptops
+// ==================
+ @media(min-width: 769px){
+
+}
+// ===========
+// Desktops
+// ===========
+ @media(min-width: 1024px){
+
+}
+// ============
+// extra large screens
+// ==============
+ @media(min-width: 1200px){
+
+}
 </style>
