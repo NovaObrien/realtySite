@@ -29,7 +29,7 @@
           350,000-900,000
         </router-link>
       </div>
-      <div class="col-3">
+      <div class="col-3 d-flex align-items-center">
         <button type="button" class="btn text-light" data-toggle="modal" data-target="#myModal">
           Contact
         </button>
