@@ -78,62 +78,64 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+// ==========>
+// Mobile
+// =========
 .feature-img{
   width: 85vw;
   height: 29vh;
   border-radius: 19px;
 }
-@media (min-width: 600px){
-.feature-img{
-  width: 98vw;
-  height: 40vh;
-}
-}
 .large{
   min-width: 40vw;
   max-height: 20vh;
 }
-
-// ==========>
-// Mobile
-// =========
-
+.featured-rows{
+  font-family: 'Roboto', sans-serif;
+}
   // =========
   // Tablets
   // ==========
  @media(min-width: 481px){
-
+ .feature-img{
+  height: 35vh;
+}
 }
 // =================
 // Small screeens Laptops
 // ==================
  @media(min-width: 769px){
 
+.container-fluid{
+  padding-left: 30px;
+}
 }
 // ===========
 // Desktops
 // ===========
  @media(min-width: 1024px){
-
+.container-fluid{
+  padding-left: 25vw;
+  padding-right: 25vw;
+}
+.feature-img{
+  width: 45vw;
+}
+.featured-rows{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
 }
 // ============
 // extra large screens
 // ==============
  @media(min-width: 1200px){
-.container-fluid{
-  padding-left: 30vw;
-  padding-right: 30vw;
-  border: 10px;
+// .feature-img{
+//   width: 35vw;
+//   height: 40vh;
+//   border-radius: 19px;
+// }
 
-}
-.feature-img{
-  width: 35vw;
-  height: 40vh;
-  border-radius: 19px;
-}
-.featured-rows{
-  padding-left: 3vw;
-  padding-right: 3vw;
-}
 }
 </style>
