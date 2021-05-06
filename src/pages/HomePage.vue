@@ -100,6 +100,7 @@ export default {
  @media(min-width: 481px){
  .feature-img{
   height: 35vh;
+  object-fit: cover;
 }
 }
 // =================

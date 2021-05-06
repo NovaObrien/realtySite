@@ -1,23 +1,17 @@
 <template>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <div class="row border-bottom">
-        <side-nav />
-        <div class="col-2">
-          <img src="../assets/img/logos/cascade-lake-realty-logo.svg" alt="">
-        </div>
-        <p class="company-name pt-3 px-1">
-          Cascade Lake Realty, Inc
-        </p>
-        <div class="col d-flex justfiy-content-end">
-          <button type="button" class="btn contact-top" data-toggle="modal" data-target="#myModal">
-            Contact
-          </button>
-        </div>
-      </div>
+      <side-nav />
+      <img src="../assets/img/logos/cascade-lake-realty-logo.svg" alt="">
+      <p class="company-name pt-3 px-1">
+        Cascade Lake Realty, Inc
+      </p>
+      <button type="button" class="btn contact-top" data-toggle="modal" data-target="#myModal">
+        Contact
+      </button>
+      <contact-modal />
     </div>
   </nav>
-  <contact-modal />
 </template>
 
 <script>
@@ -54,29 +48,11 @@ button:hover{
   background-color: #fffffffb;
 }
 
-@media(max-width: 600px){
-  .large{
-    display: none;
-  }
-  #logo{
-    font-size: 30px;
-    border: 4px solid;
-  }
-}
-@media(min-width: 600px){
-  .small{
-    display: none;
-  }
-}
-
 .hoverable {
   cursor: pointer;
 }
 a:hover {
   text-decoration: none;
-}
-.nav-link{
-  text-transform: uppercase;
 }
 .nav-item .nav-link.router-link-exact-active{
   color: var(--primary);

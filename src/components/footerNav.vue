@@ -86,4 +86,12 @@ export default {
   flex-direction: column;
   justify-content: space-between;
 }
+
+ @media(min-width: 769px){
+
+.row{
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+}
 </style>

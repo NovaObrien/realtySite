@@ -41,7 +41,7 @@ export default {
   setup() {
     return {
       openNav() {
-        document.getElementById('mySidenav').style.width = '25vw'
+        document.getElementById('mySidenav').style.width = '23vw'
       },
       closeNav() {
         document.getElementById('mySidenav').style.width = '0'
@@ -116,5 +116,12 @@ li{
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+ @media(min-width: 769px){
+
+.sidenav a{
+  font-size: 45px;
+}
 }
 </style>
