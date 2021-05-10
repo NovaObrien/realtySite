@@ -10,7 +10,7 @@
 
     <div class="row d-flex justify-content-center py-5">
       <h5>
-        Make Valley County your new home today
+        Local Knowledge, Local Expertise, 167 Years of Combined Real Estate Experience
       </h5>
     </div>
     <div class="row pb-5 featured-rows d-flex align-items-center">
